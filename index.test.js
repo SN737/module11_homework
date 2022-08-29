@@ -1,5 +1,5 @@
 import {getPercents} from  "./index.js";
-import {getMonth} from "./index";
+import {getMonth} from "./index.js";
 
 
 describe ('tests function that returns amount of % from number', ()=> {

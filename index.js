@@ -1,4 +1,5 @@
 
+// Напишите функцию getPercents(percent, number), которая возвращает {percent} процентов от {number}.
 
 export function getPercents(percent, number){
 
@@ -9,6 +10,9 @@ export function getPercents(percent, number){
 
 console.log(getPercents(0, 325))
 
+
+// Напишите функцию getMonth(n), которая принимает номер месяца и возвращает его название. Например, getMonth(12) ⇒ 'декабрь'
+// решил попробовать switch   вместо if/else
 
 export function getMonth(n) {
 
