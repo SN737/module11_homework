@@ -8,11 +8,11 @@ export function getPercents(percent, number){
 
 }
 
-console.log(getPercents(0, 325))
+
 
 
 // Напишите функцию getMonth(n), которая принимает номер месяца и возвращает его название. Например, getMonth(12) ⇒ 'декабрь'
-// решил попробовать switch   вместо if/else
+// решил попробовать switch  вместо if/else
 
 export function getMonth(n) {
 
@@ -32,4 +32,4 @@ export function getMonth(n) {
     }
 }
 
-console.log(getMonth(13))
+// уже после написания стало очевидно,  что if/else подходит гораздо лучше в данном случае,  что бы захватить все валидныи и не валидные диапазоны...
