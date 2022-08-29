@@ -25,7 +25,11 @@ export function getMonth(n) {
             return  'Март';
         case 4:
             return  'Апрель';
+        case 0:
+        case 13:
+            return  'Ошибка, нет такого месяца';
+
     }
 }
 
-console.log(getMonth(2))
+console.log(getMonth(13))
